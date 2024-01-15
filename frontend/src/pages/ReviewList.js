@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Searchbar from "../components/Searchbar";
 
+
 function ReviewList() {
   const [reviewList, setReviewList] = useState([]);
   const { user } = useAuthContext();
